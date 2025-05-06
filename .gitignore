@@ -1,0 +1,25 @@
+# Ignora archivos de estado de Terraform
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Ignora el directorio de trabajo de Terraform
+.terraform/
+
+# Ignora variables sensibles
+*.auto.tfvars
+*.tfvars
+
+# Ignora archivos de entorno (no incluye .env.sample)
+.env
+.env.*
+
+# Ignora cualquier archivo de credenciales que puedas usar
+*.pem
+*.key
+*.crt
+*.cert
+
+# Ignora metadatos del sistema
+.DS_Store
