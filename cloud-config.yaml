@@ -2,19 +2,12 @@
 users:
   - name: automatizacion
     ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+iHbjEOi8G1WUD5j5efvyubcEGjcnH6LA0WqU3VNcvC9GYnyts1ysHjpS9mu028pU9Jyx0WwM9Ip+d45LMlIbR/wSKeEDsuUbF+smZmBXkgQicJWdZwhlbD6500m7rScF/o3jT5lker0ywPVVIR8UkFGxIdIjC5xn5cOpKYnuo/FszoycAh9IkS+kJkJWPRuEUCCE2GWg75qom/f54E7STzZxyWsk5rjg+YXeZxRXr/uE/eBbZZ7kLWBl2jWnmqBs96XWWZgrcVw7P0kXmk4/yd9rzyjmaW1Djqnv0v05/Dvdo68MgyynAd/MGFM7T766p5KF35lpZ/vmtBkKZYl11IlPqh0OaAc7EQK1gw13SOSKrkjbN/4TIBINkZm8IcocTF/OE6QH5C5wUnObCzp7HsztoPW3gHsiwI0PUeO3k40jIxFnp++ynqVDCA0bNGT0s1QogfsOJrxH5zKEf9oABoe+3QGJRYAW7lko9DP89Iri3wHaoZeaAv2DH8h75gfzxw4a6KV4j3vhvKnbv3ZCXzKvZOAtlK/i9AJrYZyw1QX4diZh1AeAT+3Gag6tapJo+8EnNX5CDctGAJHxjeM49vxjUjvYfZ7VH/X7YoQCWThIkmDySDZxAgIDjTdK5fFNqf0SoHdRpO8J+cMsHJo4bFP4x9ANmtScgFPdZv5nXQ== automatizacion
-    passwd: $6$xRwIN4.qgFBRZlWy$33aB2rsbhZ/OBFaVWbA8j4Nb9JKKnYby6H0xZxDuKuVlCXOj1lvyorsIjCvKp0Cfxv90HakXsEB.mOauY9Wcf0
+      - ssh-rsa AAAAD
+    passwd: $6$xRqgFBRZlWy$3
     sudo: ALL=(ALL) NOPASSWD:ALL
     lock_passwd: false
     shell: /bin/bash
-
-  - name: wcayoja
-    ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPylVVKE3Le91LMo4yutd587bPrWzZKSWJW35L4sHyp9H5xkcu5bb0fwFGEkxbegCnZNQHyiWJWpdaZOVPJhMNU27x+DkrmzFZNaO2ZGndTEUr/ENiP2oeuPVrPZT712/HQChY8mmYsyaI3ENgd1jPWe0IPDXEM5aYWsZ49EFRwXi2x+BaGbfZbpZasjYGTHVkFM20OvEqL/BVMVES4e89X8HmwE6sLKv/Yw+egL6H9LntA3NQN/2GUJF0FBQ3pnwtN+mGQyBEATP5w4Fpxg9vbTogIb0R/gH/pi9I55+Ctkg5ql2KYstijehE7it8AYF05qt98hFe6n8PUuG2NVGssd7uhV3ZBxTIHCcrNwzbQcAzWxXPd8XUVd29AKPe5flojes/csJMsnWj4tV0ZsWLp0gIuAdgANEPeObpF7PdvIqa6LeP/7hM93pZcHoETQ4/3nuk02Qq1AhokMXP5lijUssXhwPTEsDt6HWmubIxTOrtBYlvgo6/8E1puFdSMK0= wcayoja@agetic
-    passwd: $6$M4vAGd9K0aXmyeVJ$rYNHQmq/M0PXOMUaJTz/2.9kc/girQm.d2zLTPt25duS0FqWewHIz7c4tBKN2GooBsU/ZX6JAnrDYQu7jpDKp.
-    sudo: ALL=(ALL) NOPASSWD:ALL
-    lock_passwd: false
-    shell: /bin/bash
+    
 packages:
   - htop
   - rsyslog
