@@ -16,7 +16,7 @@ resource "proxmox_vm_qemu" "cluster_psql" {
   agent       = 1
   qemu_os     = "l26"
   ciuser      = "automatizacion"
-  cipassword  = "$6$xRwIN4.qgFBRZlWy$33aB2rsbhZ/OBFaVWbA8j4Nb9JKKnYby6H0xZxDuKuVlCXOj1lvyorsIjCvKp0Cfxv90HakXsEB.mOauY9Wcf0"
+  cipassword  = "$.mOauY9Wcf0"
   searchdomain = "agetic.gob.bo"
   nameserver  = "8.8.8.8"
   sshkeys     = file("./keys/automatizacion.pub")
